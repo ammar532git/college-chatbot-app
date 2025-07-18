@@ -8,8 +8,8 @@ import os
 import bcrypt
 import difflib
 
-# ==== Hashed password ====
-hashed_password = b'$2b$12$VBsMkg3onMsj93qe9TSOCe3EcUq1.qGT0/CJ6Ywb11eCJnVtFT5wO'  # password: Danish481dev
+
+hashed_password = b'$2b$12$VBsMkg3onMsj93qe9TSOCe3EcUq1.qGT0/CJ6Ywb11eCJnVtFT5wO'  
 
 # ==== Session State ====
 if "admin_logged_in" not in st.session_state:
